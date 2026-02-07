@@ -1,0 +1,137 @@
+@font-face {
+  font-family: "Chango";
+  src: url("/fonts/chango.woff2") format(woff2);
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/montserrat.woff2") format(woff2);
+}
+
+body {
+  background-color: #ffe4fa;
+  border: 2px;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+p {
+  color: #002423;
+  font-family: sans-serif;
+
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.6;
+}
+h1 {
+  color: #002423;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+  width: 100%;
+}
+h2 {
+  font-family: "Montserrat";
+
+  color: #002423;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+h3 {
+  color: #002423;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  border-bottom: 1.5px solid #002423;
+  display: inline-block;
+}
+img {
+  width: 100%;
+}
+figure {
+  margin-left: 0px;
+}
+figcaption {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+  margin-top: 5px;
+  text-align: left;
+}
+
+.gallery {
+  display: grid;
+  grid-auto-flow: row;
+  gap: 20px;
+}
+
+.topmenu {
+  background-color: #002423;
+  padding: 15px;
+  width: 100%;
+}
+.topmenu ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  font-family: "Chango", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+}
+.topmenu li a {
+  color: #ffe4fa;
+  text-decoration: none;
+  font-weight: bold;
+}
+.topmenu li a:hover {
+  text-decoration: underline;
+  color: #d9bfd4;
+}
+
+.knap {
+  display: inline-block;
+  background-color: #002423;
+  border-color: #d9bfd4;
+  border-style: solid;
+  border-width: 10px;
+  border-radius: 120px;
+  padding: 20px 20px;
+  margin-bottom: 50px;
+}
+.knap a {
+  color: #ffe4fa;
+  font-family: "Chango", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+}
+.knap a:hover {
+  color: #d9bfd4;
+}
+
+.stats {
+  color: #002423;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 1.5em;
+}
+
+.stats ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 30px;
+}
+
+.dummy {
+  padding-top: 100px;
+}
