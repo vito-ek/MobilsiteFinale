@@ -32,7 +32,7 @@ h1 {
   width: 100%;
 }
 h2 {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
 
   color: #002423;
   font-weight: 400;
@@ -41,7 +41,7 @@ h2 {
 }
 h3 {
   color: #002423;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 24px;
@@ -55,10 +55,10 @@ figure {
   margin-left: 0px;
 }
 figcaption {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-style: italic;
-  font-size: 20px;
+  font-size: 16px;
   margin-top: 5px;
   text-align: left;
 }
