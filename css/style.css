@@ -88,8 +88,7 @@ figcaption {
 }
 .topmenu li {
   border-right: 1px solid #ffe4fa;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 0 15px;
 }
 
 .topmenu li :last-child {
