@@ -74,15 +74,17 @@ figcaption {
   width: 100%;
 }
 .topmenu ul {
-  list-style: none;
+   list-style: none;
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
   margin: 0;
   padding: 0;
   font-family: "Chango", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 10px;
+  font-size: 12px;
 }
 .topmenu li a {
   color: #ffe4fa;
